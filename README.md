@@ -1,30 +1,69 @@
-# Next.js WebGL Slider
+# React WebGL Distortion Slider
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A stunning, high-performance WebGL-powered image slider component for React applications. Features beautiful distortion effects, smooth animations, and full touch support.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mario-carlos-roca-peafiels-projects/v0-next-js-web-gl-slider)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/eM3w7cl7z7H)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18%2B-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 
-## Overview
+## ✨ Features
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+- 🎨 **WebGL Distortion Effects** - Smooth, GPU-accelerated distortion transitions
+- 📱 **Touch Support** - Full swipe gesture support for mobile devices
+- ⚡ **High Performance** - Optimized Three.js rendering with minimal overhead
+- 🎯 **Custom Cursor** - Optional custom circular cursor with smooth animations
+- 🔄 **Auto-play** - Configurable automatic slide advancement
+- 📐 **Responsive** - Adapts perfectly to any container size
+- 🎛️ **Highly Customizable** - Extensive props for fine-tuning behavior and appearance
+- 📦 **TypeScript Ready** - Full type definitions included
 
-## Deployment
+## 🚀 Quick Start
 
-Your project is live at:
+```bash
+npm install react-webgl-distortion-slider
+```
 
-**[https://vercel.com/mario-carlos-roca-peafiels-projects/v0-next-js-web-gl-slider](https://vercel.com/mario-carlos-roca-peafiels-projects/v0-next-js-web-gl-slider)**
+```tsx
+import { WebGLSlider } from "react-webgl-distortion-slider";
 
-## Build your app
+function App() {
+  const images = [
+    "/images/slide1.jpg",
+    "/images/slide2.jpg",
+    "/images/slide3.jpg",
+  ];
 
-Continue building your app on:
+  return (
+    <WebGLSlider
+      images={images}
+      autoPlay={true}
+      interval={5000}
+      showCursor={true}
+    />
+  );
+}
+```
 
-**[https://v0.app/chat/eM3w7cl7z7H](https://v0.app/chat/eM3w7cl7z7H)**
+## 📖 Documentation
 
-## How It Works
+For full documentation, examples, and API reference, visit the [live demo](https://next-js-web-gl-slider.vercel.app/).
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🛠️ Development
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Run Storybook
+pnpm storybook
+```
+
+## 📄 License
+
+MIT © [Mario Carlos](https://github.com/marioccarloss)

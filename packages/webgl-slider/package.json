@@ -1,0 +1,84 @@
+{
+  "name": "react-webgl-distortion-slider",
+  "version": "1.0.0",
+  "description": "A stunning WebGL-powered image slider with distortion effects for React",
+  "author": "Mario Carlos",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "react",
+    "webgl",
+    "slider",
+    "carousel",
+    "three.js",
+    "threejs",
+    "distortion",
+    "animation",
+    "gallery",
+    "image-slider",
+    "react-slider",
+    "webgl-effects",
+    "3d",
+    "interactive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariocarloss/react-webgl-distortion-slider"
+  },
+  "bugs": {
+    "url": "https://github.com/mariocarloss/react-webgl-distortion-slider/issues"
+  },
+  "homepage": "https://github.com/mariocarloss/react-webgl-distortion-slider#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "@react-three/fiber": ">=8.0.0",
+    "@react-three/drei": ">=9.0.0",
+    "three": ">=0.150.0"
+  },
+  "peerDependenciesMeta": {
+    "lucide-react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.160.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/drei": "^9.88.0",
+    "three": "^0.160.0",
+    "lucide-react": "^0.454.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  }
+}

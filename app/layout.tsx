@@ -7,25 +7,34 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'React WebGL Distortion Slider | Beautiful WebGL-Powered Image Carousel',
+  description: 'A stunning WebGL-powered image slider with distortion effects for React. Customizable cursor, auto-play, touch support, and TypeScript ready.',
+  keywords: ['react', 'webgl', 'slider', 'carousel', 'three.js', 'distortion', 'animation'],
+  authors: [{ name: 'Mario Carlos' }],
+  openGraph: {
+    title: 'React WebGL Distortion Slider',
+    description: 'A stunning WebGL-powered image slider with distortion effects for React.',
+    type: 'website',
+  },
+  generator: 'Next.js',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon-light.svg',
         media: '(prefers-color-scheme: light)',
+        type: 'image/svg+xml',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon-dark.svg',
         media: '(prefers-color-scheme: dark)',
+        type: 'image/svg+xml',
       },
       {
         url: '/icon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/icon.svg',
   },
 }
 

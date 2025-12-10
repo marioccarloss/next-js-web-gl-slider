@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Source files (not needed in published package)
+src/
+tsup.config.ts
+tsconfig.json
+
+# Test files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+
+# Development files
+.storybook/
+stories/
+*.stories.tsx
+
+# Build artifacts
+.turbo/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
