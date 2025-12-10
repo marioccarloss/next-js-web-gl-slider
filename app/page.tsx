@@ -70,7 +70,7 @@ export default function LandingPage() {
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a
-              href="https://www.npmjs.com/package/react-webgl-distortion-slider"
+              href="https://www.npmjs.com/package/webgl-distortion-slider-workspace"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors text-white/80 text-sm"
@@ -164,9 +164,9 @@ export default function LandingPage() {
             <div>
               <p className="text-white/60 text-sm mb-3">Install with npm, yarn, or pnpm:</p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <CodeBlock code="npm install react-webgl-distortion-slider" />
-                <CodeBlock code="yarn add react-webgl-distortion-slider" />
-                <CodeBlock code="pnpm add react-webgl-distortion-slider" />
+                <CodeBlock code="npm install webgl-distortion-slider-workspace" />
+                <CodeBlock code="yarn add webgl-distortion-slider-workspace" />
+                <CodeBlock code="pnpm add webgl-distortion-slider-workspace" />
               </div>
             </div>
 
@@ -178,7 +178,7 @@ export default function LandingPage() {
             <div>
               <p className="text-white/60 text-sm mb-3">Basic usage:</p>
               <CodeBlock
-                code={`import { DistortionSlider } from 'react-webgl-distortion-slider'
+                code={`import { DistortionSlider } from 'webgl-distortion-slider-workspace'
 
 const slides = [
   { id: 1, src: '/image1.jpg', title: 'Title', subtitle: 'Subtitle' },
@@ -284,7 +284,7 @@ function App() {
               GitHub
             </a>
             <a
-              href="https://www.npmjs.com/package/react-webgl-distortion-slider"
+              href="https://www.npmjs.com/package/webgl-distortion-slider-workspace"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/50 hover:text-white transition-colors text-sm"

@@ -20,11 +20,11 @@ A stunning, high-performance WebGL-powered image slider component for React appl
 ## 🚀 Quick Start
 
 ```bash
-npm install react-webgl-distortion-slider
+npm install webgl-distortion-slider-workspace
 ```
 
 ```tsx
-import { WebGLSlider } from "react-webgl-distortion-slider";
+import { WebGLSlider } from "webgl-distortion-slider-workspace";
 
 function App() {
   const images = [

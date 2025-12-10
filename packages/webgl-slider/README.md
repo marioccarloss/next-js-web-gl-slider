@@ -18,13 +18,13 @@ A stunning WebGL-powered image slider with distortion effects for React applicat
 
 ```bash
 # npm
-npm install react-webgl-distortion-slider
+npm install webgl-distortion-slider-workspace
 
 # yarn
-yarn add react-webgl-distortion-slider
+yarn add webgl-distortion-slider-workspace
 
 # pnpm
-pnpm add react-webgl-distortion-slider
+pnpm add webgl-distortion-slider-workspace
 ```
 
 ### Peer Dependencies
@@ -38,7 +38,7 @@ npm install react react-dom three @react-three/fiber @react-three/drei
 ## 🚀 Quick Start
 
 ```tsx
-import { DistortionSlider } from "react-webgl-distortion-slider";
+import { DistortionSlider } from "webgl-distortion-slider-workspace";
 
 const slides = [
   {
@@ -212,7 +212,7 @@ You can also import and use individual components:
 import {
   DragCursor,
   ExploreButton
-} from 'react-webgl-distortion-slider'
+} from 'webgl-distortion-slider-workspace'
 
 // Use DragCursor in your own slider
 <DragCursor
@@ -236,7 +236,7 @@ For advanced users, you can access and customize the WebGL shaders:
 import {
   vertexShader,
   createFragmentShader,
-} from "react-webgl-distortion-slider";
+} from "webgl-distortion-slider-workspace";
 
 // Create a fragment shader with custom gradient strength
 const customFragment = createFragmentShader(0.5);

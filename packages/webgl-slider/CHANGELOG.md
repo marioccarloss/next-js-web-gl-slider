@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial release of `react-webgl-distortion-slider`
+- Initial release of `webgl-distortion-slider-workspace`
 - `DistortionSlider` main component with full configuration support
 - Configurable cursor with `CursorConfig` options (color, size, text, arrows)
 - Timing configuration with `TimingConfig` (autoPlay, speed, momentum, easing)
